@@ -64,35 +64,38 @@ Prerequisites
 
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-git clone <repository-url>
-cd chess-game
+    git clone https://github.com/AsafShapi/ChessWebsite.git
+    cd chess-game
 
-    Install server dependencies:
+Install server dependencies:
 
-npm install
+    npm install
 
-    Install client dependencies:
+Install client dependencies:
 
-cd client
-npm install
+    cd client
+    npm install
 
-    Create a dev.js file in the server/config directory with your configuration:
+Create a dev.js file in the server/config directory with your configuration:
 
-module.exports = {
-  googleClientID: "your_google_client_id",
-  googleClientSecret: "your_google_client_secret",
-  mongoURL: "your_mongodb_connection_string",
-  cookieKey: "your_cookie_key"
-};
+    module.exports = {
+      googleClientID: "your_google_client_id",
+      googleClientSecret: "your_google_client_secret",
+      mongoURL: "your_mongodb_connection_string",
+      cookieKey: "your_cookie_key"
+    };
 
-    Start the development server:
+Start the development server:
 
-# From the root directory
-npm run dev
+From the root directory
+
+    npm run dev
 
 This will start both the frontend and backend servers concurrently.
+
+
 Project Structure
 Frontend (/client)
 
