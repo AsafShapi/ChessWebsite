@@ -7,6 +7,8 @@ Features
 
 Visit the live application at [https://v3l0.com](https://v3l0.com)
 
+## Project Structure
+
 ### Authentication
 
     Local authentication with email/password
